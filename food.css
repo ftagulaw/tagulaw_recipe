@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.style {
+    font-size: 45px;
+    font-family: Poppins, serif;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+}
+
+.p {
+    font-size: 25px;
+    font-family: Poppins, serif;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+
+#add-button {
+    background-color: #555;
+    border: none;
+    color: white;
+    padding: 25px 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 50px;
+    font-family: Poppins, serif;
+    transition: background-color 0.3s;
+}
+
+#download-button {
+    background-color: #555;
+    border: none;
+    color: white;
+    padding: 25px 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 50px;
+    font-family: Poppins, serif;
+    transition: background-color 0.3s;
+}
+
+#add-button:hover {
+    background-color: #777;
+    cursor: pointer;
+}
+
+#download-button:hover {
+    background-color: #777;
+    cursor: pointer;
+}
+
+#recipe {
+    margin: 50px 50px;
+}
+
+#recipe h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+#recipe ul,
+#recipe ol {
+    margin: 0 0 20px 20px;
+}
+
+#recipe li {
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+hr {
+    color: gray;
+}
+
+.like-dislike {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 10px 20px;
+}
+
+.like-button,
+.dislike-button {
+    font-size: 24px;
+    margin: 0 5px;
+}
+
+#like-button img,
+#dislike-button img {
+    width: 30px;
+    height: 30px;
+}
+
+.like-button,
+.dislike-button:hover {
+    color: gray;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    color: yellow;
+    padding: 0;
+}
+
+.star {
+    color: gray;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.highlight {
+    color: gold;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: Poppins, serif;
+}
+
+textarea {
+    width: 70%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    font-family: Poppins, serif;
+    margin-left: 50px;
+}
+
+.size {
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 200%;
+}
+
+#submit {
+    background-color: #555;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 50px;
+    font-family: Poppins, serif;
+    transition: background-color 0.3s;
+}
+
+#submit:hover {
+    background-color: #777;
+    cursor: pointer;
+}
